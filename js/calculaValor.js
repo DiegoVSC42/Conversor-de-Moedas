@@ -3,7 +3,7 @@ const valorSaida = document.getElementById("valor-saida");
 
 
 
-const endpointAPI = "https://api.exchangerate-api.com/v4/latest/";
+const endpointAPI = "https://open.er-api.com/v6/latest/";
 
 
 async function calculaValor(){
@@ -23,5 +23,6 @@ async function calculaValor(){
 async function getValoresAPI(entradaAPI,saidaAPI) {
     const res = await fetch(endpointAPI+entradaAPI)
     valores = await res.json()
+    buscandoData(valores)
     return valores.rates[saidaAPI]
 }
