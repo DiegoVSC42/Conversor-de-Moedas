@@ -16,7 +16,7 @@ Este é um **Conversor de Moedas** que permite converter valores entre diferente
 - **HTML5**: Estrutura do projeto.
 - **CSS3**: Estilização com layout responsivo utilizando media queries.
 - **JavaScript**: Lógica de conversão e manipulação do DOM.
-- **API**: Consumo da API [ExchangeRate API](https://www.exchangerate-api.com/) para obter taxas de câmbio em tempo real.
+- **API**: Consumo da API [ExchangeRate API](https://www.exchangerate-api.com/) para obter taxas de câmbio.
     <p>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg" width="40" height="40" />&nbsp;&nbsp;&nbsp;
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg" width="40" height="40" />&nbsp;&nbsp;&nbsp;
